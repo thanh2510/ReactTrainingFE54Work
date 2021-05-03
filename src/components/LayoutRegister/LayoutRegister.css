@@ -1,0 +1,147 @@
+.LayoutRegister form {
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(20, 50, 93, 0.9),
+    rgba(8, 22, 48, 0.9)
+  );
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 45%);
+  padding: 30px 50px;
+}
+
+.LayoutRegister h1 {
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+
+.LayoutRegister p {
+  color: #bf1650;
+}
+
+.LayoutRegister p::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.LayoutRegister input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background: #fdfdfd;
+}
+
+.LayoutRegister label {
+  line-height: 2;
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  color: #ded9d9;
+  font-size: 14px;
+  font-weight: 200;
+  font-family: "SF Text Regular";
+  letter-spacing: 1px;
+}
+
+.LayoutRegister button[type="submit"],
+.LayoutRegister input[type="submit"] {
+  background: #000;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 20px;
+  padding: 18px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 10px;
+  transition: 0.3s all;
+}
+
+.LayoutRegister button[type="submit"]:hover,
+.LayoutRegister input[type="submit"]:hover {
+  background: #bf1650;
+}
+
+.LayoutRegister button[type="submit"]:active,
+.LayoutRegister input[type="button"]:active,
+.LayoutRegister input[type="submit"]:active {
+  transition: 0.3s all;
+  transform: translateY(3px);
+  border: 1px solid transparent;
+  opacity: 0.8;
+}
+
+.LayoutRegister input:disabled {
+  opacity: 0.4;
+}
+
+.LayoutRegister input[type="button"]:hover {
+  transition: 0.3s all;
+}
+
+.LayoutRegister button[type="submit"],
+.LayoutRegisterinput[type="button"],
+.LayoutRegister input[type="submit"] {
+  -webkit-appearance: none;
+}
+.LayoutRegister button[type="button"] {
+  display: block;
+  appearance: none;
+  background: #333;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.LayoutRegister hr {
+  margin-top: 30px;
+}
+
+.LayoutRegister button {
+  display: block;
+  appearance: none;
+  margin-top: 40px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.LayoutRegister {
+  background: url(../../assets/Logo/bg-register2.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.LayoutRegister select {
+  text-transform: none;
+  padding: 11px 20px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+}
+.LayoutRegister .item {
+  width: 50%;
+}
+.select option {
+  cursor: pointer;
+}

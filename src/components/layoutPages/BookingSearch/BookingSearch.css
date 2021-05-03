@@ -1,0 +1,104 @@
+.homeToolsBook {
+  position: relative;
+  z-index: 1;
+}
+.homeToolsBook__rule {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 85px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.575);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.575);
+  max-width: 1005px;
+  width: 70%;
+  z-index: 10;
+  font-family: "SF Medium" !important;
+}
+.homeToolsBook__rule .dropdown-toggle::after {
+  position: absolute;
+  right: 7px;
+  top: 30px;
+  color: #2d2f3159;
+}
+.homeToolsBook__rule .hide__show {
+  right: auto;
+  transform: translate3d(0px, 60px, 0px) !important;
+}
+.homeToolsBook__rule .show__rule__name.hide__show {
+  transform: translate3d(0px, 70px, 0px) !important;
+}
+.hide__show ul li {
+  padding: 7px 10px 10px 16px;
+  cursor: pointer;
+  transition: all 0.29s ease 0s;
+  list-style: none;
+}
+.homeToolsBook__rule .hide__show ul {
+  padding: 10px;
+  min-width: 300px;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+.homeToolsBook__rule .hide__show ul::-webkit-scrollbar{
+  width: 6px;
+    background-color: #dfd9d9;
+}
+.homeToolsBook__rule .hide__show ul::-webkit-scrollbar-thumb {
+  background-color: #aaa5a5;
+}
+.rule__name {
+  width: 30%;
+}
+.homeToolsBook__rule a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  text-decoration: none;
+  font-family: "SF Medium";
+}
+.homeToolsBook__rule a:hover {
+  text-decoration: none;
+}
+.homeToolsBook__rule li:hover {
+  background-color: rgb(34, 159, 190);
+}
+.homeToolsBook__rule li:hover a {
+  color: white;
+}
+.homeToolsBook__rule a:hover {
+  color: #fff !important;
+}
+.rule__bg {
+  position: relative;
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  width: 100%;
+  padding: 20px 15px;
+  width: 100%;
+  font-family: "SF Medium";
+  /* background-image: url(../../img/dropdown-icon.png); */
+  background-repeat: no-repeat;
+  background-position: calc(100% - 8px);
+  padding-right: 20px;
+  border-right: 0.2px solid #80808024;
+}
+
+.width__rulr__right {
+  width: 17.5%;
+}
+.homeToolsBook__rule .text,
+.rule__button {
+  font-family: "SF Medium";
+  overflow: hidden;
+}

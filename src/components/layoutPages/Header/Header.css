@@ -1,0 +1,97 @@
+.section {
+  padding-top: 75px;
+}
+/* ============= header =============  */
+.header {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#movieNavBar .nav-item::after {
+  display: block;
+  width: 0;
+  height: 2.3px;
+  left: 0;
+  transition: 0.4s all;
+  content: "";
+  background: linear-gradient(to right, #fb6161, #ec7532);
+  box-shadow: 0 0 20px 0 #fbbd61;
+}
+#movieNavBar .nav-item:hover::after {
+  width: 100%;
+}
+#movieNavBar .nav-item.active::after {
+  width: 100% !important;
+}
+.text-phone {
+  font-size: 14px;
+  font-weight: 700;
+}
+.headerTop .fa-search {
+  font-size: 14px;
+  max-width: 17px;
+  margin-right: 5px;
+}
+.headerTop a:hover {
+  text-decoration: none;
+}
+.header .navbar-dark .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0.8em;
+  display: inline-block;
+  padding: 20px 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+}
+.headerTop .border-right {
+  border-right: 1px dotted rgba(255, 255, 255, 0.5) !important;
+}
+.header .navbar {
+  padding: 0rem 0rem;
+}
+.popLogin .login__item {
+  padding: 10px 15px;
+  color: #000;
+  transition: 0.2s all;
+  font-family: "SF Text Regular";
+}
+.popLogin .login__item:hover{
+  background-color: #ada8a83f;
+}
+.ant-popover-inner-content {
+  padding: 10px;
+}
+.headerLogin {
+  background: transparent;
+  color: white;
+  border: none;
+  margin-left: 0 !important;
+  transform: 0 !important;
+}
+.headerLogin span{
+  font-family: "SF Medium";
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  color: #fff !important;
+  background: none !important;
+  border-color: transparent !important;
+  outline:none !important;
+}
+[ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node{
+  box-shadow: none !important;
+  color: #fff !important;
+  background: none !important;
+  border-color: transparent !important;
+  outline: none !important;
+}
+.ant-popover-title{
+  padding: 15px;
+  font-family: "SF Medium";
+  font-weight: 400;
+}

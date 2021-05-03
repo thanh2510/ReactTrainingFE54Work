@@ -1,0 +1,9 @@
+.MuiPagination-ul li:first-child, .MuiPagination-ul li:last-child{
+    display: none;
+}
+.MuiPaginationItem-page.Mui-selected:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}

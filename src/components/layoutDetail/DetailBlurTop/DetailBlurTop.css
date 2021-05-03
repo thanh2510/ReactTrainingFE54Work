@@ -1,0 +1,213 @@
+.mainPagePhim {
+  position: relative;
+}
+.mainPagePhim .mainPagePhim__styleBlur {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 600px;
+}
+.mainPagePhim .mainPagePhim__styleBlur img {
+  filter: blur(6px);
+  margin: -11px 0 -5px -10px;
+  width: calc(100% + 5px);
+}
+.mainPagePhim .styleGradient {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(to top, rgb(10 31 40), transparent 100%);
+  /* background: linear-gradient(to top, rgb(5, 25, 32), transparent 100%); */
+}
+.mainPagePhim__mainDetail {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  max-width: 970px;
+  float: none;
+  margin: auto;
+  clear: both;
+  margin-top: 40px;
+}
+.mainPagePhim__mainDetail .img__detail {
+  border-radius: 4px;
+  width: 280px;
+  height: 375px;
+}
+.mainPagePhim__mainDetail .detailMainInfo1 {
+  font-size: 15px;
+  color: #e9e9e9;
+  font-family: "SF Text Regular";
+}
+.mainPagePhim__mainDetail .titleMovies__show {
+  margin-top: 10px;
+}
+.mainPagePhim__mainDetail .age {
+  font-size: 16px;
+  background-color: #fb4226;
+  border-radius: 4px;
+  padding: 0 5px;
+  color: #fff;
+  min-width: 33px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 8px;
+  width: auto;
+}
+.show__titleMovie {
+  font-size: 28px;
+  font-family: "SF Medium";
+  color: #e9e9e9;
+}
+.titleMovies__show .time {
+  color: #e9e9e9;
+  font-size: 15px;
+  font-family: "SF Text Regular";
+}
+.mainPagePhim__mainDetail button.btn {
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+  background: 0 0;
+  padding: 7px 25px;
+  transition: all 0.2s;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  background-color: #fb4226;
+  border: none;
+  color: #fff;
+}
+.mainPagePhim .CircularProgressbar .CircularProgressbar-path {
+  stroke: #7ed321;
+  stroke-width: 4;
+  border: none;
+}
+.mainPagePhim .CircularProgressbar .CircularProgressbar-text tspan {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  line-height: 2.4em;
+  font-size: 1.8em;
+  color: #fff !important;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+}
+.mainPagePhim .CircularProgressbar .CircularProgressbar-text {
+  fill: #ffffff;
+}
+.mainPagePhim .CircularProgressbar .CircularProgressbar-trail {
+  stroke: #212927;
+  stroke-width: 4;
+  border: none;
+}
+.mainPagePhim #starMain {
+  margin: auto;
+  width: 100%;
+  padding-left: 15px;
+}
+.mainPagePhim #starMain .smallStar,
+.mainPagePhim #starMain .half {
+  max-width: 24px;
+}
+.renderOfSystemCinema .right__cover {
+  display: flex;
+  align-items: center;
+  /* padding-left: 0; */
+}
+.renderOfSystemCinema
+  .ant-collapse
+  > .ant-collapse-item:last-child
+  > .ant-collapse-header {
+  padding-left: 0px;
+}
+.renderOfSystemCinema .age {
+  font-size: 14px;
+  background-color: #fb4226;
+  border-radius: 4px;
+  padding: 0 5px;
+  color: #fff;
+  min-width: 33px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 8px;
+  width: auto;
+}
+.renderOfSystemCinema
+  .ant-collapse-ghost
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  padding-left: 0px;
+}
+.renderOfSystemCinema .show__titleMovie p {
+  margin-bottom: 2px;
+  font-family: "SF Medium";
+  font-size: 14px;
+  color: #949494;
+  letter-spacing: 0.3px;
+}
+.renderOfSystemCinema
+  .ant-collapse
+  > .ant-collapse-item
+  > .ant-collapse-header
+  .ant-collapse-arrow {
+  display: none;
+}
+.renderOfSystemCinema {
+  overflow-y: scroll;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.renderOfSystemCinema .bot_content h4 {
+  letter-spacing: 0.3px;
+  float: left;
+  width: 100%;
+  font-family: "SF Medium";
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 5px;
+}
+.renderOfSystemCinema .timeStart {
+  font-size: 15px;
+  font-weight: 500;
+  color: #108f3e;
+  font-family: "SF Medium";
+}
+.renderOfSystemCinema .timeEnd {
+  color: #818284;
+  font-size: 11px;
+
+}
+.renderOfSystemCinema .time {
+  width: calc(25% - 10px);
+  float: left;
+  font-family: "SF Medium";
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 10px 10px 0;
+  padding: 5px 0;
+  transition: all 0.2s;
+  display: block;
+  text-align: center;
+  background-color: rgba(246, 246, 246, 0.5);
+  border-radius: 7px;
+  border: 1px solid #e4e4e4;
+}
+.renderOfSystemCinema::-webkit-scrollbar{
+  width: 6px;
+    background-color: #dfd9d9b2;
+}
+.renderOfSystemCinema::-webkit-scrollbar-thumb {
+  background-color: #cac6c6d3;
+}

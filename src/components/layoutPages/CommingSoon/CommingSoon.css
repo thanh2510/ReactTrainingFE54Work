@@ -1,0 +1,144 @@
+.comingSoon {
+  position: relative;
+  background-color: black;
+  z-index: 0;
+}
+.comingSoon__bg {
+  /* background-image: url(../../assets/img/slide6.jpg); */
+  background-size: cover;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.newIn__title {
+    text-transform: uppercase;
+    color: #ec7532;
+    letter-spacing: 1.7px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    position: relative;
+    padding: 40px 0px 20px;
+    border-bottom: 1px solid rgba(109, 107, 107, 0.247);
+}
+.newIn__title::after {
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    height: 5px;
+    left: 0;
+    width: 100px;
+    background: linear-gradient(to right, #fbbd61, #ec7532);
+}
+.comingSoon__title {
+  color: white;
+}
+span.title {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ec7532;
+}
+.comingSoon .col-sm-5 {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.comingSoon__name {
+  font-size: 34px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.comingSoon__left p {
+  color: white;
+}
+.comingSoon__rating {
+  display: inline-block;
+  margin-right: 20px;
+}
+.comingSoon__rating i {
+  font-size: 14px;
+  width: 14px;
+  color: #fbbd61;
+  vertical-align: middle;
+  font-family: "Material Icons";
+}
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+i.material-icons {
+  display: inline-flex;
+  vertical-align: middle;
+}
+.date {
+  font-size: 14px;
+  display: inline-block;
+  opacity: 0.75;
+  color: #fff;
+}
+.date i {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.comingSoon__button {
+  font-size: 12px;
+  position: relative;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #ec7532;
+}
+.comingSoon__button::after {
+  font-family: material icons;
+  font-weight: 700;
+  position: absolute;
+  top: -2px;
+  content: "chevron_right";
+  text-transform: none;
+}
+.comingSoon__content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 45px;
+}
+.comingSoon__right {
+  position: relative;
+  z-index: 1;
+}
+.comingSoon__right a {
+  display: block;
+}
+.comingSoon__right i {
+  font-size: 50px;
+  line-height: 75px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  transition: all 300ms ease-in-out;
+  text-align: center;
+  text-indent: 14px;
+  color: #fff;
+  border: 2px solid #ec7532;
+  border-radius: 50%;
+}
+.comingSoon__right a:hover .material-icons {
+  transform: scale(0.9);
+}

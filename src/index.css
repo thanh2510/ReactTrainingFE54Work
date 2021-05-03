@@ -1,0 +1,33 @@
+* {
+  font-size: 16px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+@font-face {
+  font-family: "SF Medium";
+  src: url("./assets/font/SF-UI-Display-Medium.otf");
+}
+@font-face {
+  font-family: "SF Display Regular";
+  src: url("./assets/font/SF-UI-Display-Regular.otf");
+}
+@font-face {
+  font-family: "SF Text Regular";
+  src: url("./assets/font/SF-UI-Text-Regular.otf");
+}
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v55/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+    format("woff2");
+}
+body {
+  /* background: url(./assets/img/movie-details-bg.jpg); */
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}

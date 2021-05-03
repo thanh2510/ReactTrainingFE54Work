@@ -1,0 +1,197 @@
+.ghe {
+  border: 3px solid orange;
+  width: 45px;
+  height: 35px;
+  font-size: 12px;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+}
+
+.rowNumber {
+  /* font-size: 25px; */
+  width: 45px;
+  height: 35px;
+  background: none;
+  border: none;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  font-size: 30px;
+  color: yellow;
+}
+.firstChar {
+  color: yellow;
+  font-size: 35px;
+  margin-right: 15px;
+}
+.button__defaul p {
+  font-size: 14px;
+}
+.screen {
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width: 80%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+}
+
+.gheDuocChon {
+  border: 3px solid orange;
+  background: orange;
+  color: #000;
+  cursor: no-drop !important;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
+}
+
+.gheDangChon {
+  background: rgb(109, 238, 109);
+  border: 3px solid rgb(109, 238, 109);
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
+}
+/* ================================ */
+.containerBooking {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.leftcheckout {
+  width: 74%;
+  display: flex;
+  flex-direction: row;
+}
+.rightCheckOut {
+  width: 26%;
+}
+.booking {
+  display: flex;
+}
+.SeatCheckOut {
+  margin-top: 8%;
+  width: 100%;
+}
+.stepCheckOut {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+  width: 74%;
+  padding: 0 20px;
+  z-index: 10;
+}
+.stepCheckOut li .stepnumber {
+  color: red;
+  font-size: 22px;
+  margin-right: 5px;
+}
+.leftstep ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+.leftstep ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 30px;
+  line-height: 80px;
+  font-size: 15px;
+  font-family: "SF Medium";
+}
+.leftstep ul li:first-child {
+  color: #fb4226;
+}
+.seatCheckOut2 {
+  color: brown;
+}
+.rightstep p {
+  margin-bottom: 0;
+}
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.account img {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 20%;
+}
+.account p {
+  color: #a1a5a9c7;
+  font-size: 14px;
+}
+/* =================== */
+.seatCheckOutCover {
+  display: flex;
+  font-family: "SF Text Regular";
+}
+.seatCheckOutLeft {
+  width: 10%;
+  background-image: url(../../../assets/img/iconman.jpg);
+  background-position: center;
+}
+.seatCheckOutRight {
+  width: 100%;
+  padding: 20px;
+}
+.seatCheckOutRight__top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.CheckOutRight__top__logocinema {
+  display: flex;
+}
+.CheckOutRight__top__logocinema img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.logocinema__address,
+.logocinema__title p,
+.CheckOutRight__top__righttitle p {
+  margin-bottom: 0;
+}
+.logocinema__title {
+  display: flex;
+  flex-direction: column;
+}
+.timeCount {
+  line-height: 1;
+  font-size: 29px;
+  text-align: center;
+  font-family: "SF Text Regular";
+}
+.seatCheckOutRight__bottom {
+  width: 100%;
+}
+.bookingTimtOut {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  text-align: center;
+  position: fixed;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.bookingTimtOut__content {
+  text-align: center;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  font-size: 16px;
+  background: #fff;
+}

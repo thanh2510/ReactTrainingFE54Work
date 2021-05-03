@@ -1,0 +1,233 @@
+.tabsMovies {
+  margin-top: 90px;
+  z-index: 0;
+}
+.tabsMovies .nav-tabsMovies .nav-link.active {
+  font-size: 29px;
+  color: #fa5238;
+}
+.tabsMovies .nav-tabsMovies {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.tabsMovies .nav-tabsMovies .nav-item button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  line-height: 24px;
+  height: 24px;
+  font-family: "SF Medium";
+  -webkit-transition: 0.35s all;
+  transition: 0.35s all;
+}
+
+.tabsMovies .nav-tabsMovies .nav-item button:hover {
+  font-size: 29px;
+  color: #fa5238;
+}
+
+.tabsMovies .nav-tabsMovies .nav-item button:focus {
+  border: none;
+  outline: none;
+}
+
+.tabsMovies .carousel-control-prev {
+  left: -15%;
+}
+
+.tabsMovies .carousel-control-prev img {
+  width: 80px;
+  height: 68px;
+  opacity: 0.5;
+}
+
+.tabsMovies .carousel-control-next {
+  right: -15%;
+}
+
+.tabsMovies .carousel-control-next img {
+  width: 80px;
+  height: 68px;
+  opacity: 0.5;
+}
+
+.carousel-inner .movies__tabs__item .movies__show {
+  margin: 0px 0 40px 0;
+  z-index: 10;
+}
+
+.carousel-inner .movies__tabs__item .movies__show .imgMovies {
+  position: relative;
+}
+
+.carousel-inner .movies__tabs__item .movies__show .imgMovies img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.carousel-inner .movies__tabs__item .movies__show .imgMovies .imgMovies__play {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  background: linear-gradient(to top, #000, #0000003b 100%);
+  top: 0;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.carousel-inner
+  .movies__tabs__item
+  .movies__show
+  .imgMovies
+  .imgMovies__play
+  img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 20%;
+}
+
+.carousel-inner .movies__tabs__item .movies__show .titleMovies {
+  position: relative;
+}
+
+.carousel-inner
+  .movies__tabs__item
+  .movies__show
+  .titleMovies
+  .titleMovies__show {
+  display: block;
+}
+
+.carousel-inner
+  .movies__tabs__item
+  .movies__show
+  .titleMovies
+  .titleMovies__show
+  span.age {
+  font-size: 14px;
+  background-color: #fb4226;
+  border-radius: 4px;
+  padding: 0 5px;
+  color: #fff;
+  min-width: 33px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 8px;
+  width: auto;
+}
+
+.carousel-inner
+  .movies__tabs__item
+  .movies__show
+  .titleMovies
+  .titleMovies__show
+  .show__titleMovie {
+  margin: 10px 0;
+  height: 42px;
+  max-height: 42px;
+  font-family: "SF Medium";
+  font-size: 16px;
+  color: #000;
+  line-height: 22px;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+}
+
+.carousel-inner
+  .movies__tabs__item
+  .movies__show
+  .titleMovies
+  .titleMovies__show
+  span.time {
+  font-size: 13px;
+  color: #4a4a4a;
+  margin-bottom: 15px;
+  margin-top: 8px;
+}
+
+.carousel-inner
+  .movies__tabs__item
+  .movies__show
+  .titleMovies
+  .titleMovies__buy {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+.carousel-inner
+  .movies__tabs__item
+  .movies__show
+  .titleMovies
+  .titleMovies__buy
+  button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background: linear-gradient(to left,#fb4226,#ce3017 100%);
+  padding: 15px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px !important;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+.carousel-inner .btn-danger:focus {
+  box-shadow: transparent;
+  outline: none;
+}
+.carousel-inner .movies__tabs__item .movies__show .pointMovies {
+  position: absolute;
+  top: 1.4%;
+  right: 10%;
+  z-index: 0;
+  font-family: "SF Medium";
+  font-size: 16px;
+  background-color: rgba(12, 27, 54, 0.8);
+  border: 1px solid #1f2e46;
+  border-radius: 4px;
+  padding: 2px;
+  color: #fff;
+  width: 54px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.carousel-inner .movies__tabs__item .movies__show .pointMovies p {
+  margin: 0 !important;
+  text-align: center;
+  text-align: center;
+  -webkit-transform: scaleY(1.2);
+  transform: scaleY(1.2);
+}
+
+.carousel-inner .movies__tabs__item .movies__show .pointMovies p img {
+  width: 7px;
+}
+
+.introHoverNone {
+  opacity: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  z-index: 0;
+}
+
+.movies__show:hover .introHoverNone {
+  opacity: 1;
+  z-index: 10;
+}

@@ -1,0 +1,288 @@
+.InfoDetail {
+  background-color: rgb(10 31 40);
+  position: relative;
+  height: 750px;
+  z-index: 0;
+  padding: 30px 0;
+}
+.InfoDetail__tabs {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  max-width: 970px;
+  float: none;
+  margin: auto;
+  clear: both;
+  z-index: 1;
+}
+.InfoDetail .InfoDetail__tabs .nav.nav-tabs {
+  display: flex;
+  justify-content: center;
+}
+.InfoDetail .InfoDetail__tabs .nav.nav-tabs .nav-link {
+  background: transparent;
+  border: none;
+  font-size: 22px;
+  color: white;
+  font-family: "SF Text Regular";
+  transition: 0.35s all;
+  height: 80px;
+}
+.InfoDetail .InfoDetail__tabs .nav.nav-tabs .nav-link:hover {
+  font-size: 24px;
+  color: #fa5238;
+}
+.InfoDetail .InfoDetail__tabs .tab-content {
+  background-color: white;
+}
+.InfoDetail .InfoDetail__tabs .nav-tabs {
+  border-bottom: none;
+}
+.InfoDetail .InfoDetail__content .col-4 {
+  border-right: 1px solid #abaaaa36;
+}
+.InfoDetail .InfoDetail__content .item img {
+  width: 60px;
+}
+.InfoDetail .InfoDetail__content .item {
+  display: flex;
+  align-items: center;
+  padding: 12px 3px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  opacity: 0.6;
+}
+.InfoDetail .InfoDetail__content .item:hover {
+  opacity: 1;
+}
+.InfoDetail__content .tab-pane .item.active {
+  opacity: 1;
+}
+.InfoDetail .InfoDetail__content .item__title small {
+  font-size: 13px;
+  font-family: "SF Text Regular";
+  color: #fb4226;
+  letter-spacing: 0.6px;
+  padding-left: 0;
+}
+.InfoDetail .InfoDetail__content .item__title p {
+  font-size: 20px;
+  font-family: "SF Medium";
+  color: #000;
+  margin-bottom: 0px;
+}
+.InfoDetail__content {
+  /* padding: 10px; */
+  border-radius: 6px;
+}
+.InfoDetail__content .tab-pane {
+  margin: 10px;
+}
+.InfoDetail__content .tab-pane .item {
+  border-bottom: 0.1px solid #abaaaa36;
+}
+.InfoDetail .InfoDetail__tabs .tab-content {
+  height: 550px;
+  overflow: hidden;
+}
+.InfoDetail .InfoDetail__tabs .nav.nav-tabs .nav-link.active {
+  font-size: 25px;
+  color: #fa5238;
+}
+.dayOfWeek__item {
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+  padding: 8px 21px;
+}
+.dayOfWeek__item.active p {
+  color: #fa5238;
+}
+.dayOfWeek__item p {
+  transition: 0.2s all;
+}
+.dayOfWeek__item.active p {
+  color: #fa5238;
+}
+.InfoDetail .dayOfWeek__item__week {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: "SF Medium";
+  padding-top: 9px;
+  margin-bottom: 3px;
+}
+.InfoDetail .dayOfWeek__item__date {
+  font-size: 24px;
+
+  font-family: "SF Medium";
+  margin-bottom: 5px;
+}
+.InfoDetail .dayOfWeek {
+  align-items: center;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.InfoDetail .dayOfWeek::-webkit-scrollbar {
+  background-color: #dfd9d9b2;
+  height: 6px;
+  cursor: pointer;
+}
+.InfoDetail .dayOfWeek::-webkit-scrollbar-thumb {
+  background-color: #cac6c6d3;
+  height: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.dayOfWeek__item:hover p {
+  color: #fa5238;
+}
+.InfoDetail__content .renderCinemaSystem__scroll {
+  padding-right: 0;
+  height: 480px;
+  overflow-y: scroll;
+}
+.InfoDetail__content .renderCinemaSystem__scroll::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dfd9d9b2;
+}
+.InfoDetail__content .renderCinemaSystem__scroll::-webkit-scrollbar-thumb {
+  background-color: #cac6c6d3;
+}
+.InfoDetail__content {
+  padding: 10px;
+}
+.InfoDetail__Intro p,
+.InfoDetail__Intro h3,
+.InfoDetail__Intro tr,
+.InfoDetail__Intro td {
+  color: white;
+}
+.InfoDetail__Intro h3,
+.InfoDetail__Intro th {
+  font-size: 16px;
+  font-family: "SF Medium";
+  color: #fff;
+  letter-spacing: 0.8px;
+  width: 45%;
+}
+.InfoDetail__Intro td {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.8px;
+  font-family: "SF Text Regular";
+}
+.InfoDetail__Intro .noidung {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.8px;
+  font-family: "SF Text Regular";
+  text-align: justify;
+  line-height: 29px;
+}
+.InfoDetail__Intro .td-title {
+  font-family: "SF Medium";
+}
+.InfoDetail .InfoDetail__content.normal-comment {
+  max-width: 580px;
+  margin: auto;
+}
+.InfoDetail .comment {
+  width: 100%;
+  font-family: "SF Text Regular";
+}
+.InfoDetail .comment .comment__star {
+  background-color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.InfoDetail .comment .comment__star img {
+  height: 36px;
+  width: 36px;
+  border-radius: 25px;
+}
+.InfoDetail .comment .comment__star input {
+  padding: 10px;
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+  background: #fff;
+  color: #3b3838;
+  font-size: 14px;
+  border: none;
+  font-family: "SF Text Regular";
+}
+.InfoDetail .comment .comment__star input::placeholder {
+  color: #3b3838;
+  font-family: "SF Text Regular";
+}
+.InfoDetail .comment .comment__star .ant-input-group-addon {
+  border: none;
+  background-color: #fff;
+  padding: 0;
+}
+.InfoDetail .comment .comment__star .ant-input:focus {
+  box-shadow: none;
+  border-right-width: 0;
+}
+.InfoDetail .comment .comment__star .anticon svg {
+  font-size: 24px;
+}
+.UserComment__item {
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 7px;
+  padding: 10px 12px;
+  font-family: "SF Text Regular";
+}
+.UserComment__item .user img {
+  height: 32px;
+  width: 32px;
+  border-radius: 25px;
+}
+.UserComment__item .user h5 {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+.UserComment__item .user p {
+  font-size: 10px;
+  color: #9b9b9b;
+  line-height: 1;
+}
+.UserComment__item .UserComment__top .star p {
+  margin-bottom: 2px;
+  text-align: center;
+  color: #fb4226;
+}
+.UserComment__item .UserComment__top .star .anticon svg {
+  font-size: 13px;
+}
+.UserComment__item .UserComment__top .star .ant-rate-star:not(:last-child) {
+  margin-right: 1px;
+}
+.UserComment__item .UserComment__top .star .ant-rate {
+  line-height: 0;
+}
+.UserComment__item .UserComment__body{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.377);
+}
+.UserComment__item .UserComment__body p {
+  font-size: 14px;
+  padding: 10px;
+}
+.UserComment__bottom{
+  padding: 10px 0;
+}
+.UserComment__bottom img{
+  width: 22px;
+  cursor: pointer;
+}
+.UserComment__bottom span{
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.637);
+}
